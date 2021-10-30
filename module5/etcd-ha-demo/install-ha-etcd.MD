@@ -51,4 +51,10 @@ kill process of infra0 infra1 infra2
 rm -rf /tmp/etcd
 ```
 ### restore
+<<<<<<< HEAD
 
+=======
+```
+./restore.sh
+```
+>>>>>>> fork/master
