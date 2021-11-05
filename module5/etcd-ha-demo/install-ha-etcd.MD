@@ -48,7 +48,11 @@ etcdctl --endpoints https://127.0.0.1:3379 --cert /tmp/etcd-certs/certs/127.0.0.
 kill process of infra0 infra1 infra2
 ```
 ```
+<<<<<<< HEAD
 rm -rf /tmp/etcd
+=======
+kill process of infra0 infra1 infra2
+>>>>>>> fork/master
 ```
 ### restore
 <<<<<<< HEAD
@@ -56,5 +60,9 @@ rm -rf /tmp/etcd
 =======
 ```
 ./restore.sh
+<<<<<<< HEAD
+```
+>>>>>>> fork/master
+=======
 ```
 >>>>>>> fork/master
